@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/angkapertama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Angka Pertama"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/angkakedua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="angka kedua"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/tambahkan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(+) tambah" />
+
+    <Button
+        android:id="@+id/kurangkan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(-) kurang" />
+
+    <Button
+        android:id="@+id/kalikan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(x) kali" />
+
+    <Button
+        android:id="@+id/bagikan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(:) bagi" />
+
+    <TextView
+        android:id="@+id/hasiloperasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+</LinearLayout>
